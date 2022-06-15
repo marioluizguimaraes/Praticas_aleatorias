@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgba(152, 152, 230, 0.918);
+}
+.loding{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid;
+
+    border-top-color: dodgerblue ;
+    animation: loding1 1s infinite;
+}
+@keyframes loding1{
+    to{
+        transform: rotate(1turn);
+    }
+}
